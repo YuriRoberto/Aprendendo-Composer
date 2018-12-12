@@ -1,0 +1,24 @@
+{
+
+    "name":"yuri-son/course-composer",
+    "description": "Package test",
+    "require": {
+        "php":">=7.2",
+        "silex/silex":"2.3.*@stable"
+    },
+    "type": "library",
+    "version":"1.0",
+    "license":"MIT",
+    "authors": [{
+        "name":"Yuri Roberto",
+        "email":"yurirobertocm@gmail.com"
+    }],
+    "minimum-stability":"dev",
+    "autoload": {
+        "psr-4": {"Yuri\\SON\\":"src/Yuri/SON"}
+    }
+
+
+
+}
+
